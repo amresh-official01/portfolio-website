@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects by Alex Morgan - Full Stack Developer. View my portfolio of web applications, Python projects, and UI designs.">
+  <title>Projects | Alex Morgan - Full Stack Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader"></div>
+  </div>
+  
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+  
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">My Portfolio</a>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="education.html" class="nav-link">Education</a></li>
+        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <a href="https://github.com/amresh-official01/amresh-official01" target="_blank" class="nav-icon" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/amresh-kumar-01a416327/" target="_blank" class="nav-icon" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <button class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="assets/resume.pdf" class="btn-resume" download>
+          <i class="fas fa-download"></i> Resume
+        </a>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Projects Section -->
+  <section class="section" style="padding-top: 120px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">My Work</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">
+          A collection of projects that showcase my skills and passion for development
+        </p>
+      </div>
+      
+      <!-- Filter Buttons -->
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Projects</button>
+        <button class="filter-btn" data-filter="python">Python Projects</button>
+        <button class="filter-btn" data-filter="ui">UI Projects</button>
+      </div>
+      
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1: College Management System -->
+        <div class="project-card reveal stagger-1" data-category="web">
+          <div class="project-image">
+            <img src="images/College Management System.png" alt="College Management System">
+            <div class="project-overlay">
+              <a href="#" class="project-btn" data-modal="project-modal-1" title="View Details">
+                <i class="fas fa-eye"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="project-btn" title="View Code">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">College Management System</h3>
+            <p class="project-desc">
+              A web-based system designed to manage college operations such as student records,
+              faculty details, attendance, exams, and fee management.            
+            </p>
+          <div class="project-tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>REST APIs</span>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+        
+        <!-- Project 2: Student Portal Dashboard -->
+        <div class="project-card reveal stagger-2" data-category="web">
+          <div class="project-image">
+            <img src="images/project-student.jpg" alt="Student Portal Dashboard">
+            <div class="project-overlay">
+              <a href="#" class="project-btn" data-modal="project-modal-2" title="View Details">
+                <i class="fas fa-eye"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="project-btn" title="View Code">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-Commerce Shopping Website</h3>
+            <p class="project-desc">
+              A complete online shopping platform that allows users to browse products,
+              add items to cart, place orders, and track purchases with an admin dashboard.            
+            </p>
+          <div class="project-tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>REST APIs</span>
+            <span>PostgreSQL</span>
+            <span>Payment Integration</span>
+          </div>
+        </div>
+        </div>
+        
+        <!-- Project 3: Portfolio Website -->
+        <div class="project-card reveal stagger-3" data-category="web">
+          <div class="project-image">
+            <img src="images/Portfolio Website.png" alt="Portfolio Website">
+            <div class="project-overlay">
+              <a href="#" class="project-btn" data-modal="project-modal-3" title="View Details">
+                <i class="fas fa-eye"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="project-btn" title="View Code">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">
+              Designed and developed a modern portfolio website to showcase my projects, skills, 
+              and certifications with a responsive layout and clean user interface.            
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+              <span>GitHub Hosting</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 4: Admin Dashboard UI -->
+        <div class="project-card reveal stagger-4" data-category="ui">
+          <div class="project-image">
+            <img src="images/project-admin.jpg" alt="Admin Dashboard UI">
+            <div class="project-overlay">
+              <a href="#" class="project-btn" data-modal="project-modal-4" title="View Details">
+                <i class="fas fa-eye"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="project-btn" title="View Code">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Admin Dashboard UI</h3>
+            <p class="project-desc">
+              A sleek and modern admin dashboard interface with data visualization, user management, and 
+              analytics features.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Chart.js</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 5: Task Management App -->
+        <div class="project-card reveal stagger-5" data-category="python">
+          <div class="project-image">
+            <img src="images/project-college.jpg" alt="Task Management App">
+            <div class="project-overlay">
+              <a href="#" class="project-btn" data-modal="project-modal-5" title="View Details">
+                <i class="fas fa-eye"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="project-btn" title="View Code">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Task Management App</h3>
+            <p class="project-desc">
+              A Python-based task management application with user authentication, task categorization, 
+              and deadline tracking.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>SQLite</span>
+              <span>HTML</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 6: E-commerce UI Kit -->
+        <div class="project-card reveal stagger-6" data-category="ui">
+          <div class="project-image">
+            <img src="images/project-student.jpg" alt="E-commerce UI Kit">
+            <div class="project-overlay">
+              <a href="#" class="project-btn" data-modal="project-modal-6" title="View Details">
+                <i class="fas fa-eye"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="project-btn" title="View Code">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-commerce UI Kit</h3>
+            <p class="project-desc">
+              A comprehensive UI kit for e-commerce applications featuring product cards, shopping cart, 
+              and checkout flows.
+            </p>
+            <div class="project-tech">
+              <span>Figma</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Project Modals -->
+  <div class="modal" id="project-modal-1">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <img src="images/project-college.jpg" alt="College Management System" class="modal-image">
+      <div class="modal-body">
+        <h2 class="modal-title">College Management System</h2>
+        <p class="modal-desc">
+          A comprehensive web-based platform designed to streamline college operations. The system includes 
+          modules for student enrollment, course management, faculty administration, attendance tracking, 
+          grade management, and report generation. Built with a focus on usability and efficiency, this 
+          system helps educational institutions manage their day-to-day operations seamlessly.
+        </p>
+        <p class="modal-desc">
+          <strong>Key Features:</strong><br>
+          • Student enrollment and profile management<br>
+          • Course creation and scheduling<br>
+          • Faculty assignment and management<br>
+          • Attendance tracking system<br>
+          • Grade management and report cards<br>
+          • Automated report generation
+        </p>
+        <div class="project-tech" style="margin-bottom: 1.5rem;">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Flask</span>
+          <span>SQLite</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" id="project-modal-2">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <img src="images/project-student.jpg" alt="Student Portal Dashboard" class="modal-image">
+      <div class="modal-body">
+        <h2 class="modal-title">Student Portal Dashboard</h2>
+        <p class="modal-desc">
+          An intuitive dashboard for students to track their academic journey. Features include course 
+          enrollment, assignment tracking, grade overview, calendar integration, and real-time notifications. 
+          Designed with a clean, modern interface for optimal user experience.
+        </p>
+        <p class="modal-desc">
+          <strong>Key Features:</strong><br>
+          • Course enrollment and management<br>
+          • Assignment submission and tracking<br>
+          • Real-time grade updates<br>
+          • Academic calendar integration<br>
+          • Notification system<br>
+          • Progress analytics
+        </p>
+        <div class="project-tech" style="margin-bottom: 1.5rem;">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Bootstrap</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" id="project-modal-3">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <img src="images/project-portfolio.jpg" alt="Portfolio Website" class="modal-image">
+      <div class="modal-body">
+        <h2 class="modal-title">Portfolio Website</h2>
+        <p class="modal-desc">
+          A modern, responsive portfolio website built to showcase skills, projects, and professional experience. 
+          Features include dark/light mode toggle, smooth animations, particle background effects, and a 
+          clean, minimalist design that puts content first.
+        </p>
+        <p class="modal-desc">
+          <strong>Key Features:</strong><br>
+          • Dark/Light mode toggle<br>
+          • Smooth scroll animations<br>
+          • Particle background effect<br>
+          • Responsive design<br>
+          • Project filtering<br>
+          • Contact form with validation
+        </p>
+        <div class="project-tech" style="margin-bottom: 1.5rem;">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" id="project-modal-4">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <img src="images/project-admin.jpg" alt="Admin Dashboard UI" class="modal-image">
+      <div class="modal-body">
+        <h2 class="modal-title">Admin Dashboard UI</h2>
+        <p class="modal-desc">
+          A sleek and modern admin dashboard interface with data visualization, user management, and 
+          analytics features. Designed to provide administrators with a comprehensive overview of system 
+          metrics and user activities.
+        </p>
+        <p class="modal-desc">
+          <strong>Key Features:</strong><br>
+          • Interactive data charts and graphs<br>
+          • User management interface<br>
+          • Real-time analytics<br>
+          • Responsive sidebar navigation<br>
+          • Dark theme design<br>
+          • Customizable widgets
+        </p>
+        <div class="project-tech" style="margin-bottom: 1.5rem;">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Chart.js</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" id="project-modal-5">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <img src="images/project-college.jpg" alt="Task Management App" class="modal-image">
+      <div class="modal-body">
+        <h2 class="modal-title">Task Management App</h2>
+        <p class="modal-desc">
+          A Python-based task management application with user authentication, task categorization, 
+          and deadline tracking. Helps users organize their tasks efficiently and stay productive.
+        </p>
+        <p class="modal-desc">
+          <strong>Key Features:</strong><br>
+          • User registration and login<br>
+          • Task creation and editing<br>
+          • Category-based organization<br>
+          • Deadline reminders<br>
+          • Priority levels<br>
+          • Progress tracking
+        </p>
+        <div class="project-tech" style="margin-bottom: 1.5rem;">
+          <span>Python</span>
+          <span>Flask</span>
+          <span>SQLite</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" id="project-modal-6">
+    <div class="modal-content">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <img src="images/project-student.jpg" alt="E-commerce UI Kit" class="modal-image">
+      <div class="modal-body">
+        <h2 class="modal-title">E-commerce UI Kit</h2>
+        <p class="modal-desc">
+          A comprehensive UI kit for e-commerce applications featuring product cards, shopping cart, 
+          and checkout flows. Designed to help developers quickly build beautiful online stores.
+        </p>
+        <p class="modal-desc">
+          <strong>Key Features:</strong><br>
+          • Product card components<br>
+          • Shopping cart interface<br>
+          • Checkout flow design<br>
+          • User account pages<br>
+          • Responsive layouts<br>
+          • Customizable themes
+        </p>
+        <div class="project-tech" style="margin-bottom: 1.5rem;">
+          <span>Figma</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Bootstrap</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Amresh Kumar</h3>
+        <p>Full Stack Developer crafting modern web experiences with passion and precision.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Web Development</a></li>
+          <li><a href="services.html">Backend Development</a></li>
+          <li><a href="services.html">UI/UX Design</a></li>
+          <li><a href="services.html">Database Design</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="footer-social-icons">
+          <a href="https://github.com" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="mailto:alex@example.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Amresh Kumar. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

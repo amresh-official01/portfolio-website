@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Services offered by Alex Morgan - Full Stack Developer. Web development, backend development, UI/UX design, and database design services.">
+  <title>Services | Alex Morgan - Full Stack Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader"></div>
+  </div>
+  
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+  
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">My Portfolio</a>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="education.html" class="nav-link">Education</a></li>
+        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="services.html" class="nav-link active">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <a href="https://github.com/amresh-official01/amresh-official01" target="_blank" class="nav-icon" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/amresh-kumar-01a416327/" target="_blank" class="nav-icon" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <button class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="assets/resume.pdf" class="btn-resume" download>
+          <i class="fas fa-download"></i> Resume
+        </a>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Services Hero Section -->
+  <section class="section" style="padding-top: 120px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">What I Offer</p>
+        <h2 class="section-title">My Services</h2>
+        <p class="section-description">
+          Professional development services tailored to bring your ideas to life
+        </p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card reveal stagger-1">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-desc">
+            Custom websites and web applications built with modern technologies, responsive design, 
+            and optimal performance. From landing pages to complex web apps, I deliver solutions 
+            that meet your business needs.
+          </p>
+          <ul style="text-align: left; margin-top: 1.5rem; padding-left: 1.5rem; color: var(--text-secondary);">
+            <li>Responsive Website Development</li>
+            <li>Single Page Applications (SPA)</li>
+            <li>Landing Pages</li>
+            <li>E-commerce Solutions</li>
+            <li>Website Maintenance</li>
+          </ul>
+        </div>
+        
+        <div class="service-card reveal stagger-2">
+          <div class="service-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3 class="service-title">Backend Development</h3>
+          <p class="service-desc">
+            Robust server-side solutions, RESTful APIs, and database integration to power your 
+            applications. I build scalable backend systems that handle your business logic efficiently.
+          </p>
+          <ul style="text-align: left; margin-top: 1.5rem; padding-left: 1.5rem; color: var(--text-secondary);">
+            <li>RESTful API Development</li>
+            <li>Server-side Logic</li>
+            <li>Authentication & Authorization</li>
+            <li>Third-party API Integration</li>
+            <li>Cloud Deployment</li>
+          </ul>
+        </div>
+        
+        <div class="service-card reveal stagger-3">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+          <p class="service-desc">
+            User-centered design that combines aesthetics with functionality for exceptional user 
+            experiences. I create intuitive interfaces that users love to interact with.
+          </p>
+          <ul style="text-align: left; margin-top: 1.5rem; padding-left: 1.5rem; color: var(--text-secondary);">
+            <li>User Interface Design</li>
+            <li>User Experience Research</li>
+            <li>Wireframing & Prototyping</li>
+            <li>Design Systems</li>
+            <li>Usability Testing</li>
+          </ul>
+        </div>
+        
+        <div class="service-card reveal stagger-4">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="service-title">Database Design</h3>
+          <p class="service-desc">
+            Efficient database architecture and management solutions for your data storage needs. 
+            I design databases that are scalable, secure, and optimized for performance.
+          </p>
+          <ul style="text-align: left; margin-top: 1.5rem; padding-left: 1.5rem; color: var(--text-secondary);">
+            <li>Database Architecture</li>
+            <li>Data Modeling</li>
+            <li>Query Optimization</li>
+            <li>Database Migration</li>
+            <li>Backup & Recovery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Process Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">How I Work</p>
+        <h2 class="section-title">My Development Process</h2>
+        <p class="section-description">
+          A structured approach to delivering high-quality solutions
+        </p>
+      </div>
+      
+      <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <div class="service-card reveal stagger-1" style="padding: 2rem;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 1.5rem;">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3 class="service-title" style="font-size: 1.2rem;">1. Discovery</h3>
+          <p class="service-desc" style="font-size: 0.9rem;">
+            Understanding your requirements, goals, and target audience through detailed discussions.
+          </p>
+        </div>
+        
+        <div class="service-card reveal stagger-2" style="padding: 2rem;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 1.5rem;">
+            <i class="fas fa-pencil-ruler"></i>
+          </div>
+          <h3 class="service-title" style="font-size: 1.2rem;">2. Planning</h3>
+          <p class="service-desc" style="font-size: 0.9rem;">
+            Creating wireframes, mockups, and technical specifications for the project.
+          </p>
+        </div>
+        
+        <div class="service-card reveal stagger-3" style="padding: 2rem;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 1.5rem;">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="service-title" style="font-size: 1.2rem;">3. Development</h3>
+          <p class="service-desc" style="font-size: 0.9rem;">
+            Building the solution with clean code, regular updates, and best practices.
+          </p>
+        </div>
+        
+        <div class="service-card reveal stagger-4" style="padding: 2rem;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 1.5rem;">
+            <i class="fas fa-vial"></i>
+          </div>
+          <h3 class="service-title" style="font-size: 1.2rem;">4. Testing</h3>
+          <p class="service-desc" style="font-size: 0.9rem;">
+            Thorough testing to ensure quality, performance, and cross-browser compatibility.
+          </p>
+        </div>
+        
+        <div class="service-card reveal stagger-5" style="padding: 2rem;">
+          <div class="service-icon" style="width: 60px; height: 60px; font-size: 1.5rem;">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="service-title" style="font-size: 1.2rem;">5. Deployment</h3>
+          <p class="service-desc" style="font-size: 0.9rem;">
+            Launching your project and ensuring everything runs smoothly in production.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Why Choose Me Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Why Me</p>
+        <h2 class="section-title">Why Choose My Services</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-content reveal-left">
+          <h3>Committed to Excellence</h3>
+          <p>
+            I bring a unique combination of technical expertise and creative problem-solving to every project. 
+            My goal is not just to meet expectations, but to exceed them by delivering solutions that are 
+            both functional and delightful to use.
+          </p>
+          
+          <div style="margin-top: 2rem;">
+            <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 50px; height: 50px; border-radius: 12px; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                <i class="fas fa-check"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Quality First</h4>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Clean, maintainable code following best practices and industry standards.</p>
+              </div>
+            </div>
+            
+            <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 50px; height: 50px; border-radius: 12px; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">On-Time Delivery</h4>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Respect for deadlines with clear communication throughout the project.</p>
+              </div>
+            </div>
+            
+            <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 50px; height: 50px; border-radius: 12px; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                <i class="fas fa-headset"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Ongoing Support</h4>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Post-launch support and maintenance to ensure long-term success.</p>
+              </div>
+            </div>
+            
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div style="width: 50px; height: 50px; border-radius: 12px; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0;">
+                <i class="fas fa-sync"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Transparent Process</h4>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Regular updates and open communication throughout the development cycle.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-image reveal-right">
+          <div class="about-image-wrapper">
+            <img src="images/College Management System.png" alt="Development Process">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Pricing Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Investment</p>
+        <h2 class="section-title">Pricing Plans</h2>
+        <p class="section-description">
+          Flexible pricing options to suit your project needs
+        </p>
+      </div>
+      
+      <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 1000px; margin: 0 auto;">
+        <div class="service-card reveal stagger-1" style="text-align: left; padding: 2.5rem;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Basic</h3>
+          <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Perfect for small projects</p>
+          <div style="font-size: 3rem; font-weight: 800; color: var(--accent-primary); margin-bottom: 1.5rem;">
+            $500<span style="font-size: 1rem; color: var(--text-muted);">/project</span>
+          </div>
+          <ul style="margin-bottom: 2rem;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Single Page Website</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Responsive Design</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> 2 Revisions</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> 1 Week Delivery</li>
+            <li style="padding: 0.5rem 0; color: var(--text-muted);"><i class="fas fa-times" style="margin-right: 0.5rem;"></i> Backend Integration</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline" style="width: 100%;">Get Started</a>
+        </div>
+        
+        <div class="service-card reveal stagger-2" style="text-align: left; padding: 2.5rem; border: 2px solid var(--accent-primary); position: relative;">
+          <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent-gradient); color: white; padding: 0.25rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">
+            POPULAR
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Standard</h3>
+          <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Best for most projects</p>
+          <div style="font-size: 3rem; font-weight: 800; color: var(--accent-primary); margin-bottom: 1.5rem;">
+            $1,500<span style="font-size: 1rem; color: var(--text-muted);">/project</span>
+          </div>
+          <ul style="margin-bottom: 2rem;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Multi-Page Website</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Responsive Design</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> 5 Revisions</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> 2-3 Weeks Delivery</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Basic Backend</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary" style="width: 100%;">Get Started</a>
+        </div>
+        
+        <div class="service-card reveal stagger-3" style="text-align: left; padding: 2.5rem;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Premium</h3>
+          <p style="color: var(--text-muted); margin-bottom: 1.5rem;">For complex applications</p>
+          <div style="font-size: 3rem; font-weight: 800; color: var(--accent-primary); margin-bottom: 1.5rem;">
+            $3,000+<span style="font-size: 1rem; color: var(--text-muted);">/project</span>
+          </div>
+          <ul style="margin-bottom: 2rem;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Full-Stack Application</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Custom Design</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Unlimited Revisions</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Priority Support</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--border-color);"><i class="fas fa-check" style="color: var(--accent-primary); margin-right: 0.5rem;"></i> Advanced Backend</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline" style="width: 100%;">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container">
+      <div class="reveal" style="text-align: center; padding: 4rem 2rem; background: var(--accent-gradient); border-radius: 30px;">
+        <h2 style="font-size: 2.5rem; font-weight: 800; color: white; margin-bottom: 1rem;">
+          Ready to Start Your Project?
+        </h2>
+        <p style="font-size: 1.2rem; color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto 2rem;">
+          Let's discuss how I can help bring your ideas to life. Get in touch for a free consultation.
+        </p>
+        <a href="contact.html" class="btn" style="background: white; color: #6366f1;">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Amresh Kumar</h3>
+        <p>Full Stack Developer crafting modern web experiences with passion and precision.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Web Development</a></li>
+          <li><a href="services.html">Backend Development</a></li>
+          <li><a href="services.html">UI/UX Design</a></li>
+          <li><a href="services.html">Database Design</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="footer-social-icons">
+          <a href="https://github.com" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="mailto:alex@example.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Amresh Kumar. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
